@@ -166,32 +166,66 @@
         #popup-text {
             white-space: pre-line;
             line-height: 1.5;
+            font-size: 1.2em;
         }
         
         /* Media Queries */
         @media (max-width: 768px) {
             h2 {
-                font-size: 1.8em;
+                font-size: 2em;
+                margin-bottom: 30px;
             }
             
             input {
-                font-size: 1em;
-                padding: 12px;
+                font-size: 1.2em;
+                padding: 15px;
+                max-width: 90%;
+                margin-bottom: 30px;
             }
             
             button {
-                font-size: 1em;
-                padding: 10px 20px;
+                font-size: 1.2em;
+                padding: 15px 30px;
+            }
+            
+            .popup {
+                max-width: 85%;
+                padding: 25px;
+            }
+            
+            #popup-text {
+                font-size: 1.4em;
+                line-height: 1.6;
+            }
+            
+            .popup button {
+                font-size: 1.3em;
+                padding: 12px 30px;
+                margin-top: 25px;
             }
         }
         
         @media (max-width: 480px) {
-            h2 {
-                font-size: 1.5em;
+            .container {
+                padding: 25px 15px;
             }
             
-            .container {
-                padding: 20px 15px;
+            h2 {
+                font-size: 2.2em;
+            }
+            
+            input {
+                font-size: 1.3em;
+                padding: 18px;
+            }
+            
+            button {
+                font-size: 1.3em;
+                padding: 16px 32px;
+            }
+            
+            #popup-text {
+                font-size: 1.5em;
             }
         }
     </style>
